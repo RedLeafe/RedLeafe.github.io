@@ -1,0 +1,93 @@
+.main {
+	width: 100%;
+	height: 100%;
+  }
+  
+  .flexbox {
+	display: flex;
+  }
+  
+  .LeftPanel {
+	position: sticky; /* Set the element to become sticky  */
+	height: 100vh;
+	width: 50%;
+	background-color: #0a192f;
+	top: 0; /* Set the sticky positon top */
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+  }
+
+  .LeftPanel .content {
+	color: white;
+	margin-top: 10%;
+	margin-left: 30%;
+}
+
+  #name{
+	font-size: 4rem;
+  }
+
+  #description{
+	margin-left: 0.5%;
+	color: #8892b0
+  }
+  
+  .RightPanel {
+	height: 1000rem;
+	width: 50%;
+	background-color: #0a192f;
+  }
+
+  .RightPanel .content {
+	color: white;
+	margin-top: 10%;
+	text-align:center;
+	font-size: 4em;
+}
+
+  /* Animated Text */
+
+  	#subtitle{
+		display: inline-block;
+		font-family: "Courier Monospace";
+		font-size: 2em;
+		white-space: nowrap; /* Prevent wrapping */
+		margin-left: 0.5%;
+		color: rgba(255, 255, 255, 0.741);
+	}
+
+	#typing {
+		color: rgba(0, 0, 255, 0.804);
+	}
+
+
+	#cursor {
+		/*animation: type 0.33s infinite;*/
+		display: inline;
+	}
+
+	/*@keyframes type{
+		to { opacity: .0; }
+	}*/
+
+  
+	/* ASCII Morph */
+	.morph-section {
+		width: 100%; /* Adjust width to fit within the content area */
+		height: auto; /* Adjust height to fit content */
+		position: absolute;
+		top: 50%; /* Adjust to align as per your requirement */
+		left: 70%;
+		transform: translate(-50%, -50%);
+		font-family: monospace;
+		color: #64ffda;
+	  }
+
+	.hidden {
+		display: none;
+	}
+	
+	.display {
+		display: inline;
+	}

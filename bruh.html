@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+      div {
+         display: flex;
+         margin: 4%;
+      }
+      p {
+         font-family: "Courier Monospace";
+         font-size: 2em;
+         color: blue;
+      }
+      p:last-of-type {
+         animation: type 0.33s infinite;
+      }
+      @keyframes type{
+         to { opacity: .0; }
+      }
+   </style>
+   
+</head>
+<body>
+   <div>
+      <p id="text"></p>
+      <p>|</p>
+   </div>
+
+   <script src="script.js"></script> 
+</body>
+</html>
