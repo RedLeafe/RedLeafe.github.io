@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     let counter;
     let alt = 0;
 
-    function bruh() { 
+    function flicker() { 
         alt = alt ^ 1
         
         if (alt == 1){
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     }
 
-    setInterval(bruh, 600);
+    setInterval(flicker, 600);
 
     function typeNow() {
         let word = words[i].split("");
