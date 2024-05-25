@@ -1,2 +1,2 @@
 # PersonalWebsite
-My first website, planning on making it have some sort of account functionality and try to implement security measures aswell
+This is my Personal Website and Blog, it is meant to show off my portfolio and also as a personal expression of myself.
