@@ -1,7 +1,7 @@
 
 
 document.addEventListener('DOMContentLoaded', (event) => {
-    const words = ["Security Specialist", "Y3Rme1JlZExlYWZ9=="];
+    const words = ["Security Specialist", "cmVke2xlYWZ9=="];
     let i = 0;
     let counter;
     let alt = 0;
@@ -305,7 +305,7 @@ var AsciiMorph = (function() {
   })();
   
   var element = document.querySelector('pre');
-  AsciiMorph(element, {x: 51,y: 28});
+  AsciiMorph(element, {x: 45,y: 15});
   
   var asciis = [
 
@@ -335,6 +335,19 @@ var AsciiMorph = (function() {
 "    '----------------' ",
 
   ],
+
+  [
+	"    .------------------.",
+	"   |	       .:'       |",
+	"   |      __   __      |",
+	"   |   .'`  `-'  ``.   |",
+	"   |  :          .-'   |",
+	"   |  :         :      |",
+	"   |   :         `-;   |",
+	"   |    `.__.-.__.'    |",
+	"   |                   |",
+	"    '-----------------' ",
+	  ],
   
   [
 "    .------------------.",
@@ -349,20 +362,21 @@ var AsciiMorph = (function() {
 "   |                   |",
 "    '-----------------' ",
   ],
+
 ];
   
-  AsciiMorph.render(asciis[0]);
-  
-  var currentIndex = 2;
-  
-  setTimeout(function() {
-	AsciiMorph.morph(asciis[1]);
-  }, 1000);
-  
-  setInterval(function() {
-	AsciiMorph.morph(asciis[currentIndex]);
-	currentIndex++;
-	currentIndex%= asciis.length;
-  }, 3000);
+	AsciiMorph.render(asciis[0]);
+
+	var currentIndex = 2;
+
+	setTimeout(function() {
+		AsciiMorph.morph(asciis[1]);
+	}, 1000);
+
+	setInterval(function() {
+		AsciiMorph.morph(asciis[currentIndex]);
+		currentIndex++;
+		currentIndex%= asciis.length;
+	}, 3000);
 
 });

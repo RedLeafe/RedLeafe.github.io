@@ -1,30 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <style>
-      div {
-         display: flex;
-         margin: 4%;
-      }
-      p {
-         font-family: "Courier Monospace";
-         font-size: 2em;
-         color: blue;
-      }
-      p:last-of-type {
-         animation: type 0.33s infinite;
-      }
-      @keyframes type{
-         to { opacity: .0; }
-      }
-   </style>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    
 </head>
 <body>
-   <div>
-      <p id="text"></p>
-      <p>|</p>
-   </div>
+   <div class="icon-bar">
+      <a class="active" href="#"><i class="fa fa-home"></i></a>
+      <a href="#"><i class="fa fa-search"></i></a>
+      <a href="#"><i class="fa fa-envelope"></i></a>
+      <a href="#"><i class="fa fa-globe"></i></a>
+      <a href="#"><i class="fa fa-trash"></i></a>
+    </div>
 
    <script src="script.js"></script> 
 </body>
