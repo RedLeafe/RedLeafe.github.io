@@ -51,7 +51,7 @@
   	}
 
   	.RightPanel .content {
-		width: 75%;
+		width: 530px;
 		color: rgba(255, 255, 255, 0.644);
 		margin-top: 110px;
 		overflow-wrap: wrap;
@@ -96,6 +96,21 @@
 		display: inline;
 	}
 
+	.mobile{
+		display: none;
+		background-color: black;
+		height: 100vh;
+		width: 100%;
+	}
+	.mobile h1{
+		color: white;
+		font-size: 50px;
+		font-weight: 400;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
   
 	/* ASCII Morph */
 	.morph-section {
@@ -117,6 +132,9 @@
 		width: 100%;
 		overflow: auto;
 		padding: 15px 0;
+		position: fixed;
+		bottom: 0;
+		margin-bottom: 45px;
 	  }
 	  
 	  .icon-bar a {
@@ -132,3 +150,33 @@
 	  .icon-bar a:hover {
 		color: white; /* Add a hover color */
 	  }
+
+	  @media (max-height: 761.5px){
+		.icon-bar{
+			position: relative;
+		}
+		
+	}
+
+	  @media only screen and (max-width: 1258px){
+		.LeftPanel {
+			align-items: flex-start;
+			margin-left: 100px;
+			margin-right: 0px;
+		}
+		.RightPanel .content{
+			width: 87%;
+			margin-left: -50px;
+		}
+
+		@media only screen and (max-width: 850px){
+			.main{
+				display: none;
+			}
+			.mobile{
+				display: block;
+			}
+		}
+
+		
+	}
