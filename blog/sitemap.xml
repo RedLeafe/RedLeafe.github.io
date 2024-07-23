@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/</loc>
+    <loc>https://example.org/blog/</loc>
     <lastmod>2024-07-23T00:12:12-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/</loc>
+    <loc>https://example.org/blog/posts/</loc>
     <lastmod>2024-07-23T00:12:12-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/testpost/</loc>
+    <loc>https://example.org/blog/posts/testpost/</loc>
     <lastmod>2024-07-23T00:12:12-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/manifest.json</loc>
+    <loc>https://example.org/blog/manifest.json</loc>
   </url><url>
-    <loc>https://example.org/search/</loc>
+    <loc>https://example.org/blog/search/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://example.org/search/_index.es/</loc>
+    <loc>https://example.org/blog/search/_index.es/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://example.org/search/_index.fr/</loc>
+    <loc>https://example.org/blog/search/_index.fr/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://example.org/search/_index.hi/</loc>
+    <loc>https://example.org/blog/search/_index.hi/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://example.org/search/_index.jp/</loc>
+    <loc>https://example.org/blog/search/_index.jp/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://example.org/search/_index.pl/</loc>
+    <loc>https://example.org/blog/search/_index.pl/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://example.org/search/_index.ru/</loc>
+    <loc>https://example.org/blog/search/_index.ru/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://example.org/search/_index.zh-cn/</loc>
+    <loc>https://example.org/blog/search/_index.zh-cn/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://example.org/blog/categories/</loc>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://example.org/blog/tags/</loc>
   </url>
 </urlset>
