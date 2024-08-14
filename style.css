@@ -61,6 +61,7 @@
 		text-align:left;
 		font-size: 20px;
 		font-weight: 250;	
+		margin-top: 25px;
 	}
 
 	.link{
@@ -68,12 +69,14 @@
 	}
 
 	.link:hover{
-		color: #9b0202;
+		color:#b63131;
 		transition: all 0.3s ease; 
+		cursor: pointer
 	}
 
-	.blog{
-		margin-top: 125px;
+	.Headers{
+		margin-top: 60px;
+		margin-bottom: 25px;
 	}
 
   /* Animated Text */
@@ -102,6 +105,7 @@
 		height: 100vh;
 		width: 100%;
 	}
+	
 	.mobile h1{
 		color: white;
 		font-size: 50px;
@@ -135,9 +139,9 @@
 		position: fixed;
 		bottom: 0;
 		margin-bottom: 45px;
-	  }
+	}
 	  
-	  .icon-bar a {
+	.icon-bar a {
 		float: left;
 		text-align: center; 
 		width: 75px; 
@@ -145,11 +149,103 @@
 		transition: all 0.3s ease; 
 		color: rgba(203, 203, 203, 0.644);
 		font-size: 25px; 
-	  }
-	  
-	  .icon-bar a:hover {
+	}
+	
+	.icon-bar a:hover {
 		color: white; /* Add a hover color */
-	  }
+	}
+
+	/* Experience */
+
+	.job-header {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		margin-bottom: 10px;
+	}
+	
+	.job-year {
+		color: #828791;
+		font-size: 14px;
+		margin-right: 4.5%;
+	}
+	
+	.job-title {
+		font-weight: bold;
+		font-size: 18px;
+	}
+	
+	.job-description {
+		line-height: 1.6;
+		font-size: 16px;
+		padding-left: 28.5%;
+	}
+	
+	.skills {
+		display: flex;
+		gap: 10px;
+		padding-left: 28.5%;
+	}
+	
+	.skill {
+		background-color: #282c34;
+		color: #b63131;
+		padding: 5px 10px;
+		border-radius: 5px;
+		font-size: 14px;
+	}
+
+	/* Blog */
+
+	.blog-container {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+	
+	.blog-header {
+		display: flex;
+		align-items: flex-start;; 
+		justify-content: flex-start;
+	}
+
+	.blog-content{
+		margin-left: 4.5%;
+	}
+
+	.blog-description{
+		margin-top: 10px;
+	}
+	
+	.blog-image {
+		border: 2px solid #888;
+		border-radius: 10px;
+	}
+	
+	.blog-title {
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+	.blog-container:hover .blog-title{
+		color:#b63131;
+		transition: all 0.3s ease; 
+	}
+
+	.clickable-div:hover {
+		text-decoration: none; /* Ensure no underline on hover or focus */
+		outline: none; /* Remove the blue outline on focus */
+		color: inherit;
+		cursor: pointer
+	}
+	
+	/*
+	.blog-description {
+		line-height: 1.6;
+		font-size: 16px;
+		padding-left: 28.5%;
+	}*/
+	
+	/* Scaling */
 
 	  @media (max-height: 761.5px){
 		.icon-bar{

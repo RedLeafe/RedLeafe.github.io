@@ -1,4 +1,14 @@
+function setBlogImageWidth() {
+    const jobYear = document.querySelector('.job-year');
+    const blogImage = document.querySelector('.blog-image');
 
+    if (jobYear && blogImage) {
+        blogImage.style.width = `${jobYear.offsetWidth}px`;
+    }
+}
+
+document.addEventListener('DOMContentLoaded', setBlogImageWidth);
+window.addEventListener('resize', setBlogImageWidth);
 
 document.addEventListener('DOMContentLoaded', (event) => {
     const words = ["Security Specialist", "cmVke2xlYWZ9=="];
