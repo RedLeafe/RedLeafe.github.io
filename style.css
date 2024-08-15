@@ -46,7 +46,7 @@
   }
   
   	.RightPanel {
-		height: 95rem;
+		height: 115rem;
 		width: 50%;
   	}
 
@@ -90,7 +90,7 @@
 	}
 
 	#typing {
-		color: #800000;
+		color: #b63131;
 		font-family: "Jacquard 12", system-ui;
 	}
 
@@ -120,7 +120,7 @@
 	.morph-section {
 		width: 100%; /* Adjust width to fit within the content area */
 		font-family: monospace;
-		color: #9b0202;
+		color: #b63131;
 		transform: translateX(-30px);
 	  }
 
@@ -139,6 +139,7 @@
 		position: fixed;
 		bottom: 0;
 		margin-bottom: 45px;
+		margin-left: 50px;
 	}
 	  
 	.icon-bar a {
@@ -178,13 +179,13 @@
 	.job-description {
 		line-height: 1.6;
 		font-size: 16px;
-		padding-left: 28.5%;
+		padding-left: 23.5%;
 	}
 	
 	.skills {
 		display: flex;
 		gap: 10px;
-		padding-left: 28.5%;
+		padding-left: 23.5%;
 	}
 	
 	.skill {
@@ -193,6 +194,7 @@
 		padding: 5px 10px;
 		border-radius: 5px;
 		font-size: 14px;
+		margin-bottom: 8%;
 	}
 
 	/* Blog */
@@ -232,8 +234,8 @@
 	}
 
 	.clickable-div:hover {
-		text-decoration: none; /* Ensure no underline on hover or focus */
-		outline: none; /* Remove the blue outline on focus */
+		text-decoration: none; 
+		outline: none;
 		color: inherit;
 		cursor: pointer
 	}
