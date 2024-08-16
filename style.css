@@ -46,8 +46,9 @@
   }
   
   	.RightPanel {
-		height: 95rem;
+		height: 100%;
 		width: 50%;
+		margin-bottom: 100px;
   	}
 
   	.RightPanel .content {
