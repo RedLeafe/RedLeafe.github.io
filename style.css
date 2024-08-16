@@ -33,7 +33,7 @@
 	margin-top: 100px;
 	margin-right: 100px;
 	min-width: 425px;
-}
+	}
 
   #name{
 	font-size: 4rem;
@@ -46,7 +46,7 @@
   }
   
   	.RightPanel {
-		height: 115rem;
+		height: 95rem;
 		width: 50%;
   	}
 

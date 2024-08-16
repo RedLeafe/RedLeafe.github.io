@@ -1,3 +1,4 @@
+/* Ensure blog images are equal to the size of the Experience Dates */
 function setBlogImageWidth() {
     const jobYear = document.querySelector('.job-year');
     const blogImage = document.querySelector('.blog-image');
@@ -9,6 +10,8 @@ function setBlogImageWidth() {
 
 document.addEventListener('DOMContentLoaded', setBlogImageWidth);
 window.addEventListener('resize', setBlogImageWidth);
+
+/* Typing Text */
 
 document.addEventListener('DOMContentLoaded', (event) => {
     const words = ["Security Specialist", "cmVke2xlYWZ9=="];
