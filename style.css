@@ -165,21 +165,18 @@
 
 
 	.job-container {
-		/* Two-column grid: left column for the date, right column for everything else */
 		display: grid;
-		grid-template-columns: 120px auto; /* Adjust first column width as needed */
-		grid-gap: 8px;                    /* Space between columns & rows */
-		margin-bottom: 2rem;             /* Consistent bottom spacing for each job */
+		grid-template-columns: 100px auto;
+		grid-gap: 8px;                    
+		margin-bottom: 2rem;             
 	  }
 	  
-	  /* Date in column 1 */
 	  .job-year {
 		grid-column: 1;
 		color: #828791;
 		font-size: 14px;
 	  }
 	  
-	  /* Title in column 2 (wraps as needed) */
 	  .job-title {
 		grid-column: 2;
 		font-weight: bold;
@@ -187,15 +184,13 @@
 		word-wrap: break-word;
 	  }
 	  
-	  /* Description in column 2, below the title */
 	  .job-description {
 		grid-column: 2;
 		line-height: 1.6;
 		font-size: 16px;
-		margin-bottom: 10px; /* Optional: slight space before the skills */
+		margin-bottom: 10px;
 	  }
 	  
-	  /* Skills in column 2, below the description */
 	  .skills {
 		grid-column: 2;
 		display: flex;
@@ -203,7 +198,6 @@
 		flex-wrap: wrap;
 	  }
 	  
-	  /* Individual skill pill styling */
 	  .skill {
 		background-color: #282c34;
 		color: #b63131;
@@ -272,7 +266,7 @@
 	}
 
 
-		@media only screen and (max-width: 650px){
+		@media only screen and (max-width: 750px){
 			.LeftPanel {
 				position: relative;
 				justify-self: center;
