@@ -14,7 +14,7 @@ window.addEventListener('resize', setBlogImageWidth);
 /* Typing Text */
 
 document.addEventListener('DOMContentLoaded', (event) => {
-    const words = ["Security Specialist", "cmVke2xlYWZ9=="];
+    const words = ["Security Engineer", "cmVke2xlYWZ9=="];
     let i = 0;
     let counter;
     let alt = 0;
